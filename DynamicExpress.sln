@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathDynamicExpress.Core", "DynamicExpress.Core\MathDynamicExpress.Core.csproj", "{B87685B3-56E7-4D7D-820D-A1936B04F2A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{D1915A05-2F71-4E13-884E-6A4D1E2E9B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesDemo", "Demos\EntitiesDemo\EntitiesDemo.csproj", "{6743C976-4DBC-4E60-9235-9C4A1D81A26B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTableDemo", "Demos\DataTableDemo\DataTableDemo.csproj", "{A32AC4B6-0006-4FD7-A0C4-AD2E65C3290A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleEntityDemo", "Demos\SingleEntityDemo\SingleEntityDemo.csproj", "{436184C2-66CB-47B8-AA92-E59A7873D2A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathDynamicExpress.Providers", "MathDynamicExpress.Providers\MathDynamicExpress.Providers.csproj", "{9EA4260F-7FE7-484F-B59C-D285925C932E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B87685B3-56E7-4D7D-820D-A1936B04F2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87685B3-56E7-4D7D-820D-A1936B04F2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87685B3-56E7-4D7D-820D-A1936B04F2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87685B3-56E7-4D7D-820D-A1936B04F2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6743C976-4DBC-4E60-9235-9C4A1D81A26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6743C976-4DBC-4E60-9235-9C4A1D81A26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6743C976-4DBC-4E60-9235-9C4A1D81A26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6743C976-4DBC-4E60-9235-9C4A1D81A26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32AC4B6-0006-4FD7-A0C4-AD2E65C3290A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32AC4B6-0006-4FD7-A0C4-AD2E65C3290A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32AC4B6-0006-4FD7-A0C4-AD2E65C3290A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32AC4B6-0006-4FD7-A0C4-AD2E65C3290A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436184C2-66CB-47B8-AA92-E59A7873D2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436184C2-66CB-47B8-AA92-E59A7873D2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436184C2-66CB-47B8-AA92-E59A7873D2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436184C2-66CB-47B8-AA92-E59A7873D2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA4260F-7FE7-484F-B59C-D285925C932E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA4260F-7FE7-484F-B59C-D285925C932E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA4260F-7FE7-484F-B59C-D285925C932E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA4260F-7FE7-484F-B59C-D285925C932E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6743C976-4DBC-4E60-9235-9C4A1D81A26B} = {D1915A05-2F71-4E13-884E-6A4D1E2E9B37}
+		{A32AC4B6-0006-4FD7-A0C4-AD2E65C3290A} = {D1915A05-2F71-4E13-884E-6A4D1E2E9B37}
+		{436184C2-66CB-47B8-AA92-E59A7873D2A4} = {D1915A05-2F71-4E13-884E-6A4D1E2E9B37}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DynamicExpress.Core\MathDynamicExpress.Core.csproj
+	EndGlobalSection
+EndGlobal
