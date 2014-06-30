@@ -34,3 +34,10 @@ DynamicExpress/动态表达式计算
                     Field2 = txt_entity2_field2.Text
                 });
    ```
+  3.datatable
+  ```C#
+  T MathDynamicExpress.Core.DynamicExpress.Eval<T>(string expression, object entity)
+  例如(ex):
+  MathDynamicExpress.Core.DynamicExpress.Eval<int>("{0:0}+{0:1}-{1:1}", datatable1);
+  format:"{col-index or col-name:row-index}"
+  ```
