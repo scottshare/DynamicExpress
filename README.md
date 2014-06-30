@@ -39,5 +39,5 @@ DynamicExpress/动态表达式计算
   T MathDynamicExpress.Core.DynamicExpress.Eval<T>(string expression, object entity)
   例如(ex):
   MathDynamicExpress.Core.DynamicExpress.Eval<int>("{0:0}+{0:1}-{1:1}", datatable1);
-  format:"{col-index or col-name:row-index}"
+  format:"{`col-index` or `col-name`:`row-index`}"
   ```
