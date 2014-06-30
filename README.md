@@ -10,7 +10,7 @@ DynamicExpress/动态表达式计算
  用法
  -------------------------------------------
  1.单个对象（single entity）
- ###
+ ```C#
  T MathDynamicExpress.Core.DynamicExpress.Eval<T>(string expression, object entity)
  例如(ex)：
  MathDynamicExpress.Core.DynamicExpress.Eval<double>(txt_expression.Text, new
