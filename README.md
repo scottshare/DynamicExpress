@@ -42,3 +42,23 @@ DynamicExpress/动态表达式计算
   ```
   format:"{`col-index` or `col-name`:`row-index`}"
   
+  --------------------------------------------------
+  目前项目中提供了JS Provider使用了开源的V8Engine，在项目中使用是需要在webconfig中配置对应的provider
+  ```XML
+<configSections>
+    <section name="dynamicExpressProvider" type="MathDynamicExpress.Core.DynamicExpressProviderSection, MathDynamicExpress.Core"/>
+  </configSections>
+<dynamicExpressProvider defaultProvider="JsExpressBuilder">
+    <providers>
+      <add name="JsExpressBuilder" type="MathDynamicExpress.JSExpressBuilder,MathDynamicExpress"></add>
+    </providers>
+  </dynamicExpressProvider>
+  ```
+另外需要设置一下兼容性：
+```XML
+<startup useLegacyV2RuntimeActivationPolicy="true">
+<supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+<supportedRuntime version="v2.0.50727"/>
+</startup>
+```
+具体用法可以参考项目中提供的三个demo。
